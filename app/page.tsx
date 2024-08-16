@@ -29,7 +29,7 @@ export default function Home() {
     <div className="flex justify-center items-center flex-col h-screen text-white font-bold">
       <div className="mb-20 font-extrabold text-5xl">Check your Solana Wallet Balance</div>
       <input
-        className="border-2 w-5/12 bg-black text-center"
+        className="border-2 border-stone-300 w-5/12 bg-black text-center outline outline-offset-0 p-2"
         onChange={(event => handleValue(event.target.value))}
         type="text"
         value={value}
